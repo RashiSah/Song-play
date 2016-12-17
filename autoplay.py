@@ -21,7 +21,8 @@ print "Enter the song which you want to play"
 a = raw_input()
 #The above line will store the name of the song in the variable which is used 
 # in the path described below
-
+message = "Playing your song on your favourite media player! Enjoy bawa ;)"
+subprocess.Popen(['notify-send', message])
 sound_file = "/home/doraemon/Downloads/"+a+".mp3"   #Path of the folder where the songs are placed
 
 subprocess.call([sound_program, sound_file])
