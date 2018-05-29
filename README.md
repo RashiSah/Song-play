@@ -1,2 +1,2 @@
 # Song-play
-A Simple Script using Subprocess module.
+I made a simple script in freshman year to play the songs in our computer using terminal.
